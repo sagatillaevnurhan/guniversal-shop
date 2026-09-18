@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Оформление заказа — Guniversal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <header>
+    <h1>
+      <a href="index.html">
+        <img src="Guniversal logo.JPEG" alt="Guniversal" width="150">
+      </a>
+    </h1>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="cart.html">Корзина</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main> 
+   <body>
+    <section>
+<h10>
+      <h1>Оформление заказа</h1>
+
+      <form action="#" method="post">
+        
+        <h2>Данные покупателя</h2>
+
+        <p>
+          <label for="name">Имя и фамилия:</label><br>
+          <input type="text" id="name" name="name" required placeholder="Введите ваше имя">
+        </p>
+
+        <p>
+          <label for="phone">Телефон:</label><br>
+          <input type="tel" id="phone" name="phone" required placeholder="+7 (_) _-_-_">
+        </p>
+
+        <p>
+          <label for="email">Электронная почта:</label><br>
+          <input type="email" id="email" name="email" placeholder="example@mail.com">
+        </p>
+
+        <p>
+          <label for="address">Адрес доставки:</label><br>
+          <textarea id="address" name="address" rows="3" cols="40" required placeholder="Город, улица, дом, квартира"></textarea>
+        </p>
+
+        <h2>Способ оплаты</h2>
+
+        <p>
+          <label>
+            <input type="radio" name="payment" value="cash" checked> Наличными при получении
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="payment" value="card"> Картой при получении
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="payment" value="transfer"> Перевод на карту
+          </label>
+        </p>
+
+        <h2>Комментарий к заказу</h2>
+        <p>
+          <textarea name="comment" rows="3" cols="40" placeholder="Напишите пожелания (необязательно)"></textarea>
+        </p>
+
+        <p>
+         <button type="submit" id="submit-order">Подтвердить заказ</button>
+        </p>
+      </form>
+
+      <p><a href="cart.html">← Вернуться в корзину</a></p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 Guniversal. Все права защищены.</p>
+</h10>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
